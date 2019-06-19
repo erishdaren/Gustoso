@@ -1,0 +1,262 @@
+
+
+
+main{
+    
+    font-family: 'Gentium Basic', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    header{
+       
+        display: flex;
+        flex-flow: column wrap;
+        background: url(img/pan1.jpg);
+        background-position: center;
+        background-attachment: contain;
+        background-size: cover;
+        height: auto;
+        width:100%;
+        }
+        .menu{
+            display: flex;
+            flex-direction: row ;
+            align-items: center;
+            justify-content: space-around;
+            background: rgba( 0, 0, 0, .2);/*transparencia*/
+            height: 50px;
+            color: white;
+            }
+            span{
+                color: white;
+                font-size: 18px;
+            }
+            nav {
+                font-size: 12px;
+                }
+                nav a { 
+                    text-decoration: none;
+                    color: white;
+                    margin: 0px 25px;
+                    }
+                nav a:hover{
+                    border-bottom: 2px solid #f1c40f;
+                    }
+                
+            .sociales{
+                color: white;
+                font-size: 12px;
+                }
+                .sociales a {
+                    text-decoration: none;
+                    color: white;
+                    margin: 0px 11px;
+                    }
+                .sociales a:hover{
+                    color: #f1c40f;
+                    }
+            .titulo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                color: white;
+                }
+                .titulo > button{
+                    border: none;
+                    background: rgba( 0, 0, 0, .5);
+                    color:  white;
+                    font-size: 14px;
+                    width: 150px;
+                    height: 50px;
+                    cursor: pointer;
+                    }
+                    .titulo button:hover{
+                        color:  #f1c40f;
+                    }
+                h1{ font-size: 70px;}
+        .titulo > p {
+            font-size: 42px;
+        }
+        
+
+    .contenido{ /* contenedor padre*/
+            display: flex;
+            flex-flow: column wrap;
+         
+            }
+        .menupanadero{ /* primer contenido*/
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            }
+            .panadero{
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                align-items: center;
+                width: 50%;
+                }
+                .menupan{
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    width: 50%;
+                    }
+
+        .pasteles{ /* segundo contenido*/
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: center;
+                    align-items: center;
+                    background-size: cover;
+                    }
+                    .pasteles > img{
+                        width:100%;
+                    }
+        .fondo{
+            background: url(img/panes.jpg);
+            background-position: center;
+            background-attachment: contain;
+            background-size: cover;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+        }
+        .precio{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            width: 30%;
+            margin-bottom: 100px;
+            text-align: center;
+        }
+        .break{
+            font-size: 54px;
+            color: white;
+            font-weight: 700;
+        }
+       
+        .open{
+             color: #cd6133;
+            }
+            .open1{
+                color: white;
+                font-size:24px; 
+            }
+        .text{
+            color: gray;
+                font-size:14px; 
+        }
+        .money{
+            color:#ffb142;
+        }
+     
+       .precio > h4, p{
+            margin: 0;
+        }
+        .leer{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 30%;               
+            margin-top: 50px;
+            margin-bottom: 100px;
+          
+            }
+            .menuleer {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                text-align: center;
+                background: #ecf0f1;
+                width: 100%;
+                border-style: dotted;
+           
+                }
+                .est{
+                    margin-right: 150px;
+                }
+                .menuleer img{
+                    width: 100%;
+                }
+               
+            
+            .menuleer > button{
+                margin: 30px 0px;
+                width: 150px;
+                height: 30px;
+                color: orangered;
+                font-size: 16px;
+                background: none;
+                border-color: #cd6133;
+                border-width: 1px;
+
+            }
+            .menuleer > button:hover {
+              cursor: pointer;
+              color:#f1c40f;
+            }
+
+.selectos{
+    background: #ecf0f1;
+    display: flex;
+    flex-flow: column wrap;
+
+    }   
+    .jibarito{
+        /* background: #e74c3c; */
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+   
+        }
+    .orden{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+
+        }
+        .seleccion{
+            width: 30%;
+            height: 450px;
+            text-align: center;
+            
+            }
+        
+            .seleccion > img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;  
+               
+            }
+            .seleccion > h4{
+                margin: 0;
+                color: #e84118;
+                font-size: 16px;
+            }
+            .seleccion > p{
+                color: black;
+                font-size: 12px;
+            }
+        .sanduwich{
+            width: 60%;
+            background: url(img/sandwich.jpg);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            bo
+            border-style: solid;
+            border-color: white;
+            }
+        .tiempo{
+            width: 30%;
+            background: #8e44ad;
+            }
